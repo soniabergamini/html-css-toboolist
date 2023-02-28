@@ -8,6 +8,7 @@
 /* Style Header */
 header {
     padding: 10px;
+    background-color: white;
 }
 
 h1 {
@@ -26,4 +27,33 @@ img {
 main  {
     background-color: #F5F8F9;
     height: 1000px;
+    border: 1px solid red;
+    height: 100vw;
 }
+
+#nav {
+    margin: 4% 20% 1%;
+    background-color: white;
+    padding: 1% 3%;
+    border: 1px solid green;
+    border-radius: 10px 10px 0 0;
+}
+
+button {
+    padding: 8px 12px;
+    border-radius: 5px;
+    font-size: 15px;
+}
+
+#nav button:nth-child(1) {
+    background-color: #47AEF1;
+    border: 1px solid #47AEF1;
+    color: white;
+}
+
+#nav button:nth-child(2) {
+    background-color: white;
+    border: 1px solid grey;
+    color: grey;
+}
+
