@@ -26,21 +26,20 @@ img {
 /* Style Main */
 main  {
     background-color: #F5F8F9;
-    height: 1000px;
-    border: 1px solid red;
+    border: 1px solid #F5F8F9;
     height: 100vw;
 }
 
 /* Style Barra Pulsanti */
 #nav {
-    margin: 4% 20% 0.5%;
+    margin: 3% 20% 0.3%;
     border-radius: 10px 10px 0 0;
 }
 
 #nav,#task {
     background-color: white;
     padding: 1% 3%;
-    border: 1px solid green;
+    border: 1px solid white;
 }
 
 button {
@@ -70,19 +69,17 @@ button {
 
 #task section {
     margin: 30px 0;
-    line-height: 35px;
+    line-height: 40px;
 }
 
-section span {
+.label {
     padding: 5px 8px;
     border-radius: 30px;
     color: white;
     font-size: small;
-    border: 1px solid red;
-    background-color: red;
 }
 
-#new span, .blue {
+.blue {
     border: 1px solid #47AEF1;
     background-color: #47AEF1;
 }
@@ -110,4 +107,20 @@ section span {
 #lightgreen {
     border: 1px solid #B1C925;
     background-color: #B1C925;
+}
+
+.entitya {
+    padding: 1px 3px;
+    color: #5DBDA4;
+    font-size: small;
+    border: 1px solid #5DBDA4;
+    border-radius: 50%;
+}
+
+.entityb {
+    border: 1px solid #fa8884;
+    color: #fa8884;
+    padding: 1px 5px;
+    font-size: 14px;
+    border-radius: 50%;
 }
